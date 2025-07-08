@@ -127,6 +127,26 @@ const balance = 400
 //when we use the min and max both we can use it like let see with the example
 min = 10
 max = 20
-console.log(Math.floor(Math.random ()*(min-max+1))+min);
+// console.log(Math.floor(Math.random ()*(min-max+1))+min);
 
 
+// let mydate = new Date()
+// console.log(mydate);
+// console.log(mydate.getFullYear);
+// console.log(mydate.toDateString());
+// console.log(mydate.toLocaleDateString());
+
+// let mytime = Date.now()
+// console.log(mytime);
+// console.log(mytime.getmonth)
+
+
+// let Datebymonth = Date()
+// console.log(Datebymonth);
+// console.log(Datebymonth.getmonth());
+let mydatenew = new Date()
+
+mydatenew.toLocaleString('default',{
+    weekday:"long"
+})
+console.log(mydatenew);
