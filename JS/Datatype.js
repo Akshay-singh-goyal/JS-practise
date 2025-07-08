@@ -150,3 +150,38 @@ mydatenew.toLocaleString('default',{
     weekday:"long"
 })
 console.log(mydatenew);
+
+// let arr= ["akshay","somiya","vivek","papa"]
+// let arr2 = ["mummuy","didi","chotidi"]
+// let newarr = arr.push(arr2)
+// // console.log(arr);
+// // console.log(newarr);
+
+// //let we can use to concat to single differnt value for each and every value
+// //we can not understand by the theroy so we can use the udnerstand by the examle
+
+// let myarr = arr.concat(arr2)
+// console.log(myarr);
+// // console.log("akshay");
+
+// //let we can alternative of concat
+
+// let allmyarr = [...arr, ...arr2]
+// console.log(myarr);
+// // we can use th flat to in one aray into multiple array in single array
+
+// const newarr1 = allmyarr.flat(Infinity)
+// console.log(newarr1);
+
+// //we can convert into any string into array we can use from
+// //let see by the example
+//we can use string like we write the ({name:"akshay"}) it not convert into array it output is null
+console.log(Array.from("Akshay"))
+
+//If we can convert set of element into array we can use .of 
+//let see by the example
+let a = 1;
+let b = 2;
+let c = 3;
+console.log(Array.of(a,b,c));
+
